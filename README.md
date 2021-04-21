@@ -14,4 +14,4 @@ Then open your browser and type
 ```bash
 localhost:8080
 ```
-Simply rerender the page by refreshing the page.
+Start a new game by refreshing the page
