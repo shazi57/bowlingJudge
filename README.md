@@ -1,6 +1,9 @@
 # bowlingJudge
 bowling judge allow users to simulate a complete bowling game and calculate score for each frame.
 
+## demo
+[link to demo!](https://shazi57.github.io/bowlingJudge/)
+
 ## installation
 At root directory, open the terminal and type
 ```bash
