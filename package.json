@@ -5,6 +5,7 @@
   "main": "",
   "scripts": {
     "react-dev": "webpack --mode development --watch",
+    "build": "webpack --mode production",
     "deploy": "gh-pages -d public",
     "frontend-dev": "webpack serve --mode development"
   },

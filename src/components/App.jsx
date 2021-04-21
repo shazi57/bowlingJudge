@@ -144,6 +144,9 @@ const App = () => {
     if (thirdRoll) {
       // if user striked
       if (currFrame.remainingPins === knockedPins) {
+        if (currFrame.spare) {
+          currFrame.strike = true;
+        }
         // only if user didn't strike or spare during the second roll
         if (!(currFrame.secondRoll === 10 || currFrame.firstRoll + currFrame.secondRoll === 10)) {
           currFrame.spare = true;
