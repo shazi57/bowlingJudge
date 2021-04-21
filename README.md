@@ -5,7 +5,7 @@ bowling judge allow users to simulate a complete bowling game and calculate scor
 At root directory, open the terminal and type
 ```bash
 npm install
-npm run front-end dev
+npm run frontend-dev
 ```
 Then open your browser and type
 ```bash
